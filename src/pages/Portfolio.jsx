@@ -1,6 +1,21 @@
 import React from 'react';
 import VideoComponent from '../components/Video';
 import './Portfolio.css';
+import arrow from '/assets/icons/arrow.svg';
+
+// Import images
+import nuttyJump1 from '/assets/images/nutty-jump1.png';
+import nuttyJump2 from '/assets/images/nutty-jump2.png';
+import momentm1 from '/assets/images/momentm1.png';
+import momentm2 from '/assets/images/momentm2.png';
+import momentm4 from '/assets/images/momentm4.png';
+import momentm5 from '/assets/images/momentm5.png';
+import pacman from '/assets/images/pacman.png';
+import budgetlyly1 from '/assets/images/budgetlyly1.png';
+import budgetlyly2 from '/assets/images/budgetlyly2.png';
+import portalIso from '/assets/images/portal-iso.png';
+import mode from '/assets/images/mode.png';
+import site from '/assets/images/site.png';
 
 const Portfolio = () => {
   return (
@@ -11,9 +26,10 @@ const Portfolio = () => {
           className="scroll-down-button" 
           onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
         >
-          <img src="src/assets/icons/arrow.svg" alt="arrow" />
+          <img src={arrow} alt="arrow" />
         </div>
       </div>
+
       <div className="portfolio-card">
         <div className="portfolio-card-content">
           <div className="portfolio-card-detail">
@@ -33,9 +49,9 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-card-media">
             <div className="nutty-jump-images">
-              <img className="nutty" src="src/assets/images/nutty-jump1.png" alt="nuttyjump1" />
+              <img className="nutty" src={nuttyJump1} alt="nuttyjump1" />
               <VideoComponent />
-              <img className="nutty" src="src/assets/images/nutty-jump2.png" alt="nuttyjump2" />
+              <img className="nutty" src={nuttyJump2} alt="nuttyjump2" />
             </div>
           </div>
         </div>
@@ -54,10 +70,10 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-              <img className="image" src="src/assets/images/momentm2.png" alt="momentm2" />
-              <img className="image" src="src/assets/images/momentm1.png" alt="momentm1" />
-              <img className="image" src="src/assets/images/momentm4.png" alt="momentm4" />
-              <img className="image" src="src/assets/images/momentm5.png" alt="momentm5" />
+            <img className="image" src={momentm2} alt="momentm2" />
+            <img className="image" src={momentm1} alt="momentm1" />
+            <img className="image" src={momentm4} alt="momentm4" />
+            <img className="image" src={momentm5} alt="momentm5" />
           </div>
         </div>
       </div>
@@ -76,7 +92,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-            <img className="pacman" src="src/assets/images/pacman.png" alt="pacman" />
+            <img className="pacman" src={pacman} alt="pacman" />
           </div>
         </div>
       </div>
@@ -95,8 +111,8 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-            <img className="budgetlyly" src="src/assets/images/budgetlyly1.png" alt="budgetlyly1" />
-            <img className="budgetlyly" src="src/assets/images/budgetlyly2.png" alt="budgetlyly2" />
+            <img className="budgetlyly" src={budgetlyly1} alt="budgetlyly1" />
+            <img className="budgetlyly" src={budgetlyly2} alt="budgetlyly2" />
           </div>
         </div>
       </div>
@@ -113,7 +129,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-            <img className="portal" src="src/assets/images/portal-iso.png" alt="portal-iso" />
+            <img className="portal" src={portalIso} alt="portal-iso" />
           </div>
         </div>
       </div>
@@ -130,11 +146,11 @@ const Portfolio = () => {
               MODE is accessible and effective.</p>
           </div>
           <div className="portfolio-card-media">
-          <img className="mode" src="src/assets/images/mode.png" alt="mode" />
+            <img className="mode" src={mode} alt="mode" />
           </div>
         </div>
       </div>
-      
+
       <div className="portfolio-card">
         <div className="portfolio-card-content">
           <div className="portfolio-card-detail">
@@ -145,7 +161,7 @@ const Portfolio = () => {
               Firebase.</p>
           </div>
           <div className="portfolio-card-media">
-            <img className="site" src="src/assets/images/site.png" alt="site" />
+            <img className="site" src={site} alt="site" />
           </div>
         </div>
       </div>

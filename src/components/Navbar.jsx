@@ -2,6 +2,10 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
+// Import images
+import githubIcon from "/assets/icons/github-mark-white.svg";
+import linkedinIcon from "/assets/icons/icons8-linkedin (2).svg";
+
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
@@ -63,7 +67,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/assets/icons/github-mark-white.svg" alt="Github" className="github-icon" />
+              <img src={githubIcon} alt="Github" className="github-icon" />
             </a>
             <a
               href="https://www.linkedin.com/in/matt-martinez-a85112257/"
@@ -71,7 +75,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="src/assets/icons/icons8-linkedin (2).svg" alt="LinkedIn" className="linkedin-icon" />
+              <img src={linkedinIcon} alt="LinkedIn" className="linkedin-icon" />
             </a>
           </li>
         </ul>

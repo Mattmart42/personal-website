@@ -2,20 +2,27 @@ import React, { useState } from "react";
 import "./About.css"; // Import your CSS file
 import { Link } from "react-router-dom";
 
-//<a target="_blank" href="https://icons8.com/icon/39854/javascript">JavaScript</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/12592/python">Python</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/38294/java">Java</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/23028/html-5">Html 5</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/38272/css3">CSS3</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/24464/swift">Swift</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/55205/c-sharp-logo">C Sharp Logo</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/122637/react">React</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/dJjTWMogzFzg/vite">Vite</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/eIvodJbbBLyD/apple-arcade">Game</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/62452/firebase">Firebase</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/121602/visual-studio">Visual Studio</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/amXjtNWVYSKP/figma">Figma</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
-//<a target="_blank" href="https://icons8.com/icon/39848/unity">Unity</a> icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+// Import images
+import javascriptIcon from "/assets/icons/javascript.svg";
+import pythonIcon from "/assets/icons/python.svg";
+import javaIcon from "/assets/icons/java.svg";
+import html5Icon from "/assets/icons/html5.svg";
+import css3Icon from "/assets/icons/css3.svg";
+import swiftIcon from "/assets/icons/swift.svg";
+import cSharpIcon from "/assets/icons/c-sharp.svg";
+import reactIcon from "/assets/icons/reacto.svg";
+import viteIcon from "/assets/icons/vite.svg";
+import gitIcon from "/assets/icons/git.svg";
+import mongodbIcon from "/assets/icons/mongodb.svg";
+import gameIcon from "/assets/icons/game.svg";
+import firebaseIcon from "/assets/icons/firebase.svg";
+import vscodeIcon from "/assets/icons/vscode.svg";
+import xcodeIcon from "/assets/icons/xcode.svg";
+import figmaIcon from "/assets/icons/figma.svg";
+import postmanIcon from "/assets/icons/postman.svg";
+import unityIcon from "/assets/icons/unity.svg";
+import lmuLogo from "/assets/images/lmu-logo.png";
+import profileImage from "/assets/images/profile.png";
 
 const About = () => {
   const [selectedCard, setSelectedCard] = useState(3); // Default selected card is the first one
@@ -100,7 +107,7 @@ const Experience = () => {
       </div>
     </div>
   );
-}
+};
 
 const Skills = () => {
   return (
@@ -110,92 +117,92 @@ const Skills = () => {
         <h3>Languages</h3>
         <div className="skills-subcontainer">
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/javascript.svg" alt="javascript" />
+            <img className="skill-image" src={javascriptIcon} alt="javascript" />
             <h4>JavaScript</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/python.svg" alt="python" />
+            <img className="skill-image" src={pythonIcon} alt="python" />
             <h4>Python</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/java.svg" alt="java" />
+            <img className="skill-image" src={javaIcon} alt="java" />
             <h4>Java</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/html5.svg" alt="html5" />
+            <img className="skill-image" src={html5Icon} alt="html5" />
             <h4>HTML5</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/css3.svg" alt="css3" />
+            <img className="skill-image" src={css3Icon} alt="css3" />
             <h4>CSS3</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/swift.svg" alt="swift" />
+            <img className="skill-image" src={swiftIcon} alt="swift" />
             <h4>Swift</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/c-sharp.svg" alt="c-sharp" />
+            <img className="skill-image" src={cSharpIcon} alt="c-sharp" />
             <h4>C#</h4>
           </div>
         </div>
         <h3>Frameworks</h3>
         <div className="skills-subcontainer">
-        <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/git.svg" alt="git" />
+          <div className="skill-card">
+            <img className="skill-image" src={gitIcon} alt="git" />
             <h4>Git</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/reacto.svg" alt="react" />
+            <img className="skill-image" src={reactIcon} alt="react" />
             <h4>React</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/vite.svg" alt="vite" />
+            <img className="skill-image" src={viteIcon} alt="vite" />
             <h4>Vite</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/mongodb.svg" alt="mongodb" />
+            <img className="skill-image" src={mongodbIcon} alt="mongodb" />
             <h4>MongoDB</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/game.svg" alt="game" />
+            <img className="skill-image" src={gameIcon} alt="game" />
             <h4>SpriteKit</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/game.svg" alt="game" />
+            <img className="skill-image" src={gameIcon} alt="game" />
             <h4>GameplayKit</h4>
           </div>
         </div>
         <h3>Tools</h3>
         <div className="skills-subcontainer">
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/firebase.svg" alt="firebase" />
+            <img className="skill-image" src={firebaseIcon} alt="firebase" />
             <h4>Firebase</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/vscode.svg" alt="visual-studio" />
+            <img className="skill-image" src={vscodeIcon} alt="visual-studio" />
             <h4>Visual Studio</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/xcode.svg" alt="xcode" />
+            <img className="skill-image" src={xcodeIcon} alt="xcode" />
             <h4>XCode</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/figma.svg" alt="figma" />
+            <img className="skill-image" src={figmaIcon} alt="figma" />
             <h4>Figma</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/postman.svg" alt="postman" />
+            <img className="skill-image" src={postmanIcon} alt="postman" />
             <h4>Postman</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/icons/unity.svg" alt="unity" />
+            <img className="skill-image" src={unityIcon} alt="unity" />
             <h4>Unity</h4>
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 const Education = () => {
   return (
@@ -208,41 +215,20 @@ const Education = () => {
           <h6>May 2025</h6>
         </div>
         <div className="logo-container">
-          <img className="lmu-logo" src="src/assets/images/lmu-logo.png" alt="lmu-logo" />
+          <img className="lmu-logo" src={lmuLogo} alt="lmu-logo" />
         </div>
       </div>
-      {/* <div className="ed-container">
-        <div className="ed-detail-container">
-          <h4>Entreprenuership Certificate</h4>
-          <h5>Loyola Marymount University</h5>
-          <h6>May 2025</h6>
-        </div>
-        <div className="logo-container">
-          <img className="lmu-logo" src="src/assets/lmu-logo.png" alt="lmu-logo" />
-        </div>
-      </div>
-      <div className="ed-container">
-        <div className="ed-detail-container">
-          <h4>SOON Masters of Computer Science</h4>
-          <h5>Loyola Marymount University</h5>
-          <h6>May 2026</h6>
-        </div>
-        <div className="logo-container">
-          <img className="lmu-logo" src="src/assets/lmu-logo.png" alt="lmu-logo" />
-        </div>
-      </div> */}
     </div>
   );
-}
+};
 
 const Bio = () => {
   return (
     <div className="expanded-content">
       <h2>Bio</h2>
       <div className="bio-container">
-        
         <div className="bio-row-container">
-          <img className="bio-image" src="src/assets/images/profile.png" alt="profile" />
+          <img className="bio-image" src={profileImage} alt="profile" />
           <div className="bio-col-container">
             <div className="bio-subcontainer">
               <h4>name</h4>
@@ -269,11 +255,11 @@ const Bio = () => {
           </h4>
         </div>
         <div>
-            <Link to="/portfolio" className="works-button">
-              View my works
-            </Link>
+          <Link to="/portfolio" className="works-button">
+            View my works
+          </Link>
         </div>
       </div>
     </div>
   );
-}
+};
