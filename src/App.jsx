@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -10,7 +10,7 @@ import "./App.css";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/personal-site/">
       <div className="content">
         <Navbar />
         <div className="main">
