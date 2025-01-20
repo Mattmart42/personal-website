@@ -151,7 +151,17 @@ video {
 
 .nutty {
   width: 100%;
-  max-width: 250px;
-  min-width: 150px;
+  max-width: 200px;
+  height: auto;
+  min-width: 100px;
   clip-path: inset(0 round 20px);
+}
+
+.nutty-jump-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }

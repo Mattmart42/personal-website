@@ -346,11 +346,9 @@
 
 .bio-image {
   width: 20%;
-  height: 20%;
   min-width: 100px;
   border-radius: 50%;
-  padding-right: 1rem;
-  clip-path: inset(0 round 20px);
+  margin: 1rem;
 }
 
 @media (min-width: 768) {

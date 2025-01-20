@@ -63,7 +63,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/assets/github-mark-white.png" alt="Github" className="github-icon" />
+              <img src="src/assets/github-mark-white.svg" alt="Github" className="github-icon" />
             </a>
             <a
               href="https://www.linkedin.com/in/matt-martinez-a85112257/"
@@ -71,7 +71,7 @@ const Navbar = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <img src="/assets/icons8-linkedin (2).svg" alt="LinkedIn" className="linkedin-icon" />
+              <img src="src/assets/icons8-linkedin (2).svg" alt="LinkedIn" className="linkedin-icon" />
             </a>
           </li>
         </ul>

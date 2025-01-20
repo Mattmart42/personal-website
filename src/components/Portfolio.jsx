@@ -32,10 +32,11 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-            <img className="nutty" src="src/assets/nutty-jump3.png" alt="nuttyjump3" />
-            <VideoComponent />
-            <img className="nutty" src="src/assets/nutty-jump4.png" alt="nuttyjump4" />
-            
+            <div className="nutty-jump-images">
+              <img className="nutty" src="src/assets/nutty-jump1.png" alt="nuttyjump1" />
+              <VideoComponent />
+              <img className="nutty" src="src/assets/nutty-jump2.png" alt="nuttyjump2" />
+            </div>
           </div>
         </div>
       </div>
