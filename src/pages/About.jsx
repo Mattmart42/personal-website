@@ -110,85 +110,85 @@ const Skills = () => {
         <h3>Languages</h3>
         <div className="skills-subcontainer">
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/javascript.svg" alt="javascript" />
+            <img className="skill-image" src="src/assets/icons/javascript.svg" alt="javascript" />
             <h4>JavaScript</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/python.svg" alt="python" />
+            <img className="skill-image" src="src/assets/icons/python.svg" alt="python" />
             <h4>Python</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/java.svg" alt="java" />
+            <img className="skill-image" src="src/assets/icons/java.svg" alt="java" />
             <h4>Java</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/html5.svg" alt="html5" />
+            <img className="skill-image" src="src/assets/icons/html5.svg" alt="html5" />
             <h4>HTML5</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/css3.svg" alt="css3" />
+            <img className="skill-image" src="src/assets/icons/css3.svg" alt="css3" />
             <h4>CSS3</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/swift.svg" alt="swift" />
+            <img className="skill-image" src="src/assets/icons/swift.svg" alt="swift" />
             <h4>Swift</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/c-sharp.svg" alt="c-sharp" />
+            <img className="skill-image" src="src/assets/icons/c-sharp.svg" alt="c-sharp" />
             <h4>C#</h4>
           </div>
         </div>
         <h3>Frameworks</h3>
         <div className="skills-subcontainer">
         <div className="skill-card">
-            <img className="skill-image" src="src/assets/git.svg" alt="git" />
+            <img className="skill-image" src="src/assets/icons/git.svg" alt="git" />
             <h4>Git</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/reacto.svg" alt="react" />
+            <img className="skill-image" src="src/assets/icons/reacto.svg" alt="react" />
             <h4>React</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/vite.svg" alt="vite" />
+            <img className="skill-image" src="src/assets/icons/vite.svg" alt="vite" />
             <h4>Vite</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/mongodb.svg" alt="mongodb" />
+            <img className="skill-image" src="src/assets/icons/mongodb.svg" alt="mongodb" />
             <h4>MongoDB</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/game.svg" alt="game" />
+            <img className="skill-image" src="src/assets/icons/game.svg" alt="game" />
             <h4>SpriteKit</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/game.svg" alt="game" />
+            <img className="skill-image" src="src/assets/icons/game.svg" alt="game" />
             <h4>GameplayKit</h4>
           </div>
         </div>
         <h3>Tools</h3>
         <div className="skills-subcontainer">
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/firebase.svg" alt="firebase" />
+            <img className="skill-image" src="src/assets/icons/firebase.svg" alt="firebase" />
             <h4>Firebase</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/vscode.svg" alt="visual-studio" />
+            <img className="skill-image" src="src/assets/icons/vscode.svg" alt="visual-studio" />
             <h4>Visual Studio</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/xcode.svg" alt="xcode" />
+            <img className="skill-image" src="src/assets/icons/xcode.svg" alt="xcode" />
             <h4>XCode</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/figma.svg" alt="figma" />
+            <img className="skill-image" src="src/assets/icons/figma.svg" alt="figma" />
             <h4>Figma</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/postman.svg" alt="postman" />
+            <img className="skill-image" src="src/assets/icons/postman.svg" alt="postman" />
             <h4>Postman</h4>
           </div>
           <div className="skill-card">
-            <img className="skill-image" src="src/assets/unity.svg" alt="unity" />
+            <img className="skill-image" src="src/assets/icons/unity.svg" alt="unity" />
             <h4>Unity</h4>
           </div>
         </div>
@@ -208,7 +208,7 @@ const Education = () => {
           <h6>May 2025</h6>
         </div>
         <div className="logo-container">
-          <img className="lmu-logo" src="src/assets/lmu-logo.png" alt="lmu-logo" />
+          <img className="lmu-logo" src="src/assets/images/lmu-logo.png" alt="lmu-logo" />
         </div>
       </div>
       {/* <div className="ed-container">
@@ -242,7 +242,7 @@ const Bio = () => {
       <div className="bio-container">
         
         <div className="bio-row-container">
-          <img className="bio-image" src="src/assets/profile.png" alt="profile" />
+          <img className="bio-image" src="src/assets/images/profile.png" alt="profile" />
           <div className="bio-col-container">
             <div className="bio-subcontainer">
               <h4>name</h4>

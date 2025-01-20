@@ -183,21 +183,21 @@ h2 {
 
 @font-face {
   font-family: 'CascadiMono';
-  src: url('./fonts/CascadiaMono.ttf') format('truetype');
+  src: url('./assets/fonts/CascadiaMono.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'EB Garamond';
-  src: url('./fonts/EBGaramond-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/EBGaramond-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'LibreBaskerville';
-  src: url('./fonts/LibreBaskerville-Regular.ttf') format('truetype');
+  src: url('./assets/fonts/LibreBaskerville-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'LibreBaskervilleBold';
-  src: url('./fonts/LibreBaskerville-Bold.ttf') format('truetype');
+  src: url('./assets/fonts/LibreBaskerville-Bold.ttf') format('truetype');
   font-weight: bold;
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoComponent from './Video';
+import VideoComponent from '../components/Video';
 import './Portfolio.css';
 
 const Portfolio = () => {
@@ -11,7 +11,7 @@ const Portfolio = () => {
           className="scroll-down-button" 
           onClick={() => window.scrollBy({ top: window.innerHeight, behavior: 'smooth' })}
         >
-          <img src="src/assets/arrow.svg" alt="arrow" />
+          <img src="src/assets/icons/arrow.svg" alt="arrow" />
         </div>
       </div>
       <div className="portfolio-card">
@@ -33,9 +33,9 @@ const Portfolio = () => {
           </div>
           <div className="portfolio-card-media">
             <div className="nutty-jump-images">
-              <img className="nutty" src="src/assets/nutty-jump1.png" alt="nuttyjump1" />
+              <img className="nutty" src="src/assets/images/nutty-jump1.png" alt="nuttyjump1" />
               <VideoComponent />
-              <img className="nutty" src="src/assets/nutty-jump2.png" alt="nuttyjump2" />
+              <img className="nutty" src="src/assets/images/nutty-jump2.png" alt="nuttyjump2" />
             </div>
           </div>
         </div>
@@ -54,10 +54,10 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-              <img className="image" src="src/assets/momentm2.png" alt="momentm2" />
-              <img className="image" src="src/assets/momentm1.png" alt="momentm1" />
-              <img className="image" src="src/assets/momentm4.png" alt="momentm4" />
-              <img className="image" src="src/assets/momentm5.png" alt="momentm5" />
+              <img className="image" src="src/assets/images/momentm2.png" alt="momentm2" />
+              <img className="image" src="src/assets/images/momentm1.png" alt="momentm1" />
+              <img className="image" src="src/assets/images/momentm4.png" alt="momentm4" />
+              <img className="image" src="src/assets/images/momentm5.png" alt="momentm5" />
           </div>
         </div>
       </div>
@@ -76,7 +76,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-            <img className="pacman" src="src/assets/pacman.png" alt="pacman" />
+            <img className="pacman" src="src/assets/images/pacman.png" alt="pacman" />
           </div>
         </div>
       </div>
@@ -95,8 +95,8 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-            <img className="budgetlyly" src="src/assets/budgetlyly1.png" alt="budgetlyly1" />
-            <img className="budgetlyly" src="src/assets/budgetlyly2.png" alt="budgetlyly2" />
+            <img className="budgetlyly" src="src/assets/images/budgetlyly1.png" alt="budgetlyly1" />
+            <img className="budgetlyly" src="src/assets/images/budgetlyly2.png" alt="budgetlyly2" />
           </div>
         </div>
       </div>
@@ -113,7 +113,7 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="portfolio-card-media">
-            <img className="portal" src="src/assets/portal-iso.png" alt="portal-iso" />
+            <img className="portal" src="src/assets/images/portal-iso.png" alt="portal-iso" />
           </div>
         </div>
       </div>
@@ -130,7 +130,7 @@ const Portfolio = () => {
               MODE is accessible and effective.</p>
           </div>
           <div className="portfolio-card-media">
-          <img className="mode" src="src/assets/mode.png" alt="mode" />
+          <img className="mode" src="src/assets/images/mode.png" alt="mode" />
           </div>
         </div>
       </div>
@@ -145,7 +145,7 @@ const Portfolio = () => {
               Firebase.</p>
           </div>
           <div className="portfolio-card-media">
-            <img className="site" src="src/assets/site.png" alt="site" />
+            <img className="site" src="src/assets/images/site.png" alt="site" />
           </div>
         </div>
       </div>

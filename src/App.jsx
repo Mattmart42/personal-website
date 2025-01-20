@@ -1,10 +1,10 @@
 import React from "react";
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Home from "./components/Home";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Portfolio from "./components/Portfolio";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Portfolio from "./pages/Portfolio";
 import "font-awesome/css/font-awesome.min.css";
 import "./App.css";
 
