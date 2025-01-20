@@ -1,0 +1,157 @@
+.portfolio-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  animation: fadeIn 1.5s ease-in-out;
+  padding: 2rem;
+}
+
+.portfolio-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  animation: fadeIn 1.5s ease-in-out;
+  height: 100vh;
+}
+
+.portfolio-header h1 {
+  font-size: 7vw;
+  letter-spacing: 5px;
+  animation: colorChange 6s infinite;
+}
+
+.portfolio-card {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  justify-content: center;
+  border: 10px solid #6c6c6c;
+  border-radius: 20px;
+  transition: transform 0.5s ease;
+}
+
+.portfolio-card-content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  color: #b0b0b0;
+  width: 100%;
+  justify-content: center;
+}
+
+.portfolio-card-detail {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  min-width: 100px;
+  padding: 1rem;
+}
+
+.portfolio-card-detail h3, h4, p {
+  margin: 5px 0;
+  color: #e4e4e4;
+}
+
+.portfolio-card-detail h3 {
+  font-size: clamp(2.0rem, 3vw, 2.5rem);
+}
+
+.portfolio-card-detail h4 {
+  font-size: clamp(0.75rem, 3vw, 1.0rem);
+  color: #ff6347;
+}
+
+.portfolio-card-detail p {
+  font-size: clamp(1.0rem, 3vw, 1.25rem);
+}
+
+.portfolio-card-media {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  max-width: 100%;
+  padding: 1rem;
+}
+
+.portfolio-card-media > * {
+  flex: 1 1 300px; /* Flex-grow, flex-shrink, and flex-basis */
+}
+
+@media (max-width: 768px) {
+  .portfolio-card-media > * {
+    flex-basis: 100%; /* Full width on smaller screens */
+  }
+}
+
+.portfolio-card a {
+  color:#ff6347
+}
+
+.portfolio-card a:hover {
+  color: #ffffff;
+}
+
+.portfolio-card:hover {
+  transform: scale(1.05);
+  border: 10px solid #ff6347;
+  background-color: #1e1e1e;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0.5rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 60%;
+}
+
+.image {
+  max-width: 20%;
+  min-width: 120px;
+  margin: 0 auto;
+  clip-path: inset(0 round 20px);
+}
+
+.video {
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+video { 
+  width: 100%;
+  max-width: 250px;
+  min-width: 150px;
+  clip-path: inset(0 round 20px);
+}
+
+.budgetlyly, .pacman, .site, .mode, .portal {
+  max-width: 100%;
+  min-width: 120px;
+  clip-path: inset(0 round 10px);
+}
+
+.mode {
+  max-width: 250px;
+  width: 80%;
+  min-width: 100px;
+}
+
+.nutty {
+  width: 100%;
+  max-width: 250px;
+  min-width: 150px;
+  clip-path: inset(0 round 20px);
+}
